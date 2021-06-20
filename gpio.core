@@ -1,0 +1,21 @@
+CAPI=2:
+
+name : ::gpio:1.0
+
+description : Simple 8-bit gpio core
+
+filesets:
+  rtl:
+    files:
+      - rtl/gpio.v : {file_type : verilogSource}
+      
+targets:
+  default:
+    filesets: [rtl]
+
+
+#[main]
+#
+
+#[verilog]
+#src_files = gpio.v
